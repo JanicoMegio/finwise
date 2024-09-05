@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo.png'
+import Logo from '../assets/images/Logo.png'
 
 function Sidebar() {
   const [isSidebarActive, setSidebarActive] = useState(false);
@@ -18,7 +18,7 @@ function Sidebar() {
         <div className="d-flex" id="wrapper">
             <div className={`border-right ${isSidebarActive ? 'active' : ''}`} id="sidebar">
                 <div className="sidebar-header d-flex justify-content-between align-items-center">
-                    <img src={logo} alt="" className="img-fluid px-5 my-4"/>
+                    <img src={Logo} alt="" className="img-fluid px-5 my-4"/>
                 </div>
                 <div className="list-group" id="sidebar-list">
                     <a href="#" className="nav-item nav-link text-light py-3 disabled" id="mainmenu">MAIN MENU</a>
