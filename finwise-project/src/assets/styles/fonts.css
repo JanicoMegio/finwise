@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'inter-font';
+    src: url('../fonts/inter/InterVariable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lexend-font';
+    src: url('../fonts/lexend/Lexend-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
