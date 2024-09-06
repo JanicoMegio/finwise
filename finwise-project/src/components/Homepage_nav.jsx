@@ -67,9 +67,7 @@ function Homepage_nav() {
           </a>
         </li>
         <li className="navbar__item">
-          <a href="#" className="navbar__link__link">
-            Sign In
-          </a>
+          <Link className="navbar__link__link" to="/login">Sign In</Link>
         </li>
         <li className="navbar__item">
           <a href="#" className="navbar__link__link">

@@ -116,6 +116,10 @@
     .navbar__link__link{
       display: none;
     }
+    .navbar__logo img{
+      margin-left: 20px;
+    }
+    
 
   }
   
@@ -123,6 +127,7 @@
   @media (max-width: 768px) {
     .navbar__toggle {
       display: flex;
+      margin-left: 200px;
     }
   
     .navbar__links {
@@ -145,6 +150,22 @@
     #HeroImage{
       display: none;
     }
+    .navbar__logo img{
+      margin-left: 0px;
+    }
+
+    #feature_image{
+      margin-top: 0px!important;
+      margin-left: 40px;
+    }
+
+    #hero_section_2{
+      background-color: #011C75;
+      color: #ffffff;
+      height: 700px!important;
+    }
+    
+    
   }
 
 @media (max-width: 990px ) {

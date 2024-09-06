@@ -61,7 +61,7 @@ function Sidebar() {
                             <a href="#" className="nav-item nav-link text-light">Assets</a>
                             <a href="#" className="nav-item nav-link text-light">Settings</a>
                             <a href="#" className="nav-item nav-link text-light">Help Center</a>
-                            <a href="#" className="nav-item nav-link text-light">Logout</a>
+                            <Link to="/" className="nav-item nav-link text-light">Logout</Link>
                         </div>
                     </div>
                 </nav>
